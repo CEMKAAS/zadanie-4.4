@@ -10,7 +10,17 @@ public class Person {
         this.ticket = ticket;
     }
 
+    public String getName() {
+        return name;
+    }
+    public String getFamily(){
+        return family;
+    }
+
     boolean ticket (){
+        if (ticket<=0){
+            return false;
+        }
         ticket--;
         return true;
     }
