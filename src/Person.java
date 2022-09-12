@@ -25,5 +25,7 @@ public class Person {
         return true;
     }
 
-
+    public int getTicket() {
+        return ticket;
+    }
 }
